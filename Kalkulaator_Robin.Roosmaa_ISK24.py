@@ -46,3 +46,4 @@ while True:
     elif valik == 0:
         print('Sisesta uuesti üks liitmise operaator')
         break
+
