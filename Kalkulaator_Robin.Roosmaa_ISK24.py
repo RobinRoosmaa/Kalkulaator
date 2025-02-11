@@ -13,7 +13,7 @@ class Calc:
         return self.num1 / self.num2
     def jaak(self):
         return self.num1 % self.num2
-    def ruutjuur(self):
+    def aste(self):
         return self.num1 ** self.num2
 a = int(input("Sisesta esimene number: "))
 b = int(input("Sisesta teine number: "))
@@ -21,7 +21,7 @@ b = int(input("Sisesta teine number: "))
 kalk = Calc(a, b)
 while True:
     def menu():
-        x = '1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. Ruutjuure leidmine. '
+        x = '1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. Astendamine '
         print(x)
     menu()
     valik = int(input('Sisesta üks valikutest: '))
@@ -41,8 +41,9 @@ while True:
         print("Vastus: ",kalk.jaak())
         break
     elif valik == 6:
-        print("Vastus: ",kalk.ruutjuur())
+        print("Vastus: ",kalk.aste())
         break
     elif valik == 0:
         print('Sisesta uuesti üks liitmise operaator')
         break
+:#14 :58
