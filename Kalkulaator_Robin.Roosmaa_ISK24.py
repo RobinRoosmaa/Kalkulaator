@@ -19,7 +19,7 @@ class Calc: #Loome klassi kalkulaatorite loomiseks
     def hypotenuus(self): #Defineerime täisnurkse kolmnurga hüpotenuusi leidmise Pythagorase teoreemiga.
         return (self.num1**2+self.num2**2)**0.5 #Tagastame Pythagorase teoreemi tulemuse kasutades esimest ja teist arvu täisnurkse kolmnurga külgede pikkusena.
 def menu(): # Defineerime taaskasutava menüü, mis kuvab kasutajale kalkulaatori valikud..
-    x = '1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. Astendamine\n7. Protsendi leidmine (Esimese arvu protsent teisest)\n8. Pythagorase teoreem '  # Menu prinditakse sõnedena erinevatel ridadel, mis vastavad kalkulaatori tegudele.
+    x = '1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. Astendamine\n7. Protsendi leidmine (Esimese arvu protsent teisest)\n8. Pythagorase teoreem ' # Menu prinditakse sõnedena erinevatel ridadel, mis vastavad kalkulaatori tegudele.
     print(x)
 a = float(input("Sisesta esimene number: ")) #Küsime kasutajalt esimest ja teist numbrit, mis võivad olla komata kui ka komaga arvud.
 b = float(input("Sisesta teine number: "))
@@ -53,3 +53,4 @@ while True: #Senikaua kui selle all olevad read False tulemust või break käsku
         break
     else: #Juhul kui valiku number on valesti sisestatud (ükskõik mis tähtede või numbrite kombinatsioon peale 1-8) teatatakse seda kasutajale ja while tsükkel jõustub.
         print("See valiku number pole valikutes antud")
+        #kgisorthijroh
